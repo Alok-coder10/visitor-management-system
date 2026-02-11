@@ -1,0 +1,16 @@
+ /* Custom gradient background */
+ body {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    min-height: 100vh;
+}
+/* Custom button hover effects */
+.btn-approve:hover {
+    background-color: #16a34a;
+}
+.btn-reject:hover {
+    background-color: #dc2626;
+}
+/* Make tables scrollable on small screens */
+.table-container {
+    overflow-x: auto;
+}

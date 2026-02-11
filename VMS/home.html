@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visitor Management Portal</title>
+    <style>
+              body {
+                  font-family: 'Segoe UI', sans-serif;
+                  background: url('iiitnbackground.jpg') no-repeat center center fixed;
+                  background-size: cover;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+              }
+
+              .container {
+              text-align: center;
+              width: 70%;
+
+              padding: 70px; /* Increase the padding */
+              background: #5a86a786; /* Add transparency */
+              border-radius: 15px;
+              box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+          }
+
+              .logo {
+                  width: 150px;
+                  height: 150px;
+                  margin-bottom: 30px;
+                  object-fit: cover;
+                  border-radius: 0px;
+              }
+
+              .button-grid {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  gap: 20px;
+                  margin-top: 20px;
+              }
+
+              .btn {
+                  padding: 15px;
+                  background-color: #6a56f1;
+                  color: white;
+                  font-size: 18px;
+                  border: none;
+                  border-radius: 8px;
+                  cursor: pointer;
+                  transition: 0.3s ease;
+              }
+
+              .btn:hover {
+                  background-color: #4328f3;
+              }
+              .qr {
+          color: #ffffff;
+          padding: 5px;
+          background-color: #372f80;
+          margin-top: 30px;
+      }
+
+      user agent stylesheet
+      b
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1
+        style="
+          text-align: center;
+          color: white;
+          font-size: 36px;
+          margin-bottom: 20px;
+        "
+      >
+        Visitor Management Portal
+      </h1>
+      <!-- Title added -->
+      <img src="iiitn.png" alt="Image" class="logo" />
+      <!-- Replace logo.png with your image -->
+
+      <div class="button-grid">
+        <button
+          class="btn"
+          onclick="location.href='dashboard.php?role=student'"
+        >
+          Student
+        </button>
+        <button class="btn" onclick="location.href='dashboard.php?role=staff'">
+          Staff
+        </button>
+        <button class="btn" onclick="location.href='dashboard.php?role=admin'">
+          Admin
+        </button>
+        <button
+          class="btn"
+          onclick="location.href='dashboard.php?role=visitor'"
+        >
+          Visitor
+        </button>
+      </div>
+      <button class="qr" onclick="location.href='scan_qr.html'">
+        Scan Your QR
+      </button>
+    </div>
+  </body>
+</html>
