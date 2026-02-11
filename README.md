@@ -50,7 +50,7 @@ This system manages visitors, students, staff, and admins through role-based das
 ## 📂 Project Structure
 ```
 VMS/
-│
+│-dashboard images
 ├── admin.php
 ├── checkout.php
 ├── dashboard.php
